@@ -23,4 +23,10 @@ public class HelloController {
         return "hello";
 
     }
+
+    //UC_03(Rest Request)
+    @GetMapping("/UC3")
+    public String sayHelloByRestCall() {
+        return "Hello from BridgeLabz";
+    }
 }
